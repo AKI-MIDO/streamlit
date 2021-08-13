@@ -25,11 +25,11 @@ if button:
 expander = st.beta_expander("問い合わせ")
 expander.write("問い合わせ")
 
-#text=st.text_input("あなたの趣味を教えてください")
-#"あなたの趣味は",text,"です"
+text=st.text_input("あなたの趣味を教えてください")
+"あなたの趣味は",text,"です"
 
-#condition=st.slider("あなたの調子は？",0, 100, 50)
-#"コンディション",condition 
-#if st.checkbox("Show Image"):
-#    img=Image.open("就活用写真.jpg")
-#    st.image(img, caption="Endo Akira", use_column_width=True)
+condition=st.slider("あなたの調子は？",0, 100, 50)
+"コンディション",condition 
+if st.checkbox("Show Image"):
+    img=Image.open("就活用写真.jpg")
+    st.image(img, caption="Endo Akira", use_column_width=True)
